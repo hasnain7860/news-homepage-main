@@ -1,0 +1,228 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+nav{ 
+
+align-items: center;
+
+ height: 80px; 
+ width: 100%; 
+  z-index: 2; 
+ }
+label.logo{  
+ line-height: 80px; 
+ padding: 40px; 
+  
+   }
+   nav ul{  float: right;
+     margin-right: 20px;
+     }
+     nav ul li{  display: inline-block; 
+      line-height: 80px; 
+       margin: 0 5px;
+       }
+       nav ul li{  color: black;  
+       font-size: 17px; 
+        padding: 7px 13px;  
+        border-radius: 3px; 
+         text-transform: uppercase;
+         }
+         .checkbtn{  font-size: 30px;  
+         color: black;  
+         float: right;  
+         line-height: 80px; 
+          margin-right: 40px;  
+          cursor: pointer;  
+          display: none;
+          }
+          #check{ 
+           display: none;
+          }
+@media (max-width 952px ){ 
+ label.logo{   
+  font-size: 30px;  
+    padding-left: 50px; 
+     } 
+      nav ul li {   
+       font-size: 16px; 
+        }
+        }
+        @media (max-width: 858px){  
+        .checkbtn{   
+         display: block; 
+          }
+          ul{   
+           position: fixed;   
+            width: 60%;   
+             height: 100vh;   
+              background-color: black; 
+                 top: 0px;   
+                  left: -100%;  
+           text-align: center;                  transition: all .5s;  
+             z-index: 3; 
+                       }  
+                       nav ul li
+              {    display: block;   
+             margin: 50px 0; 
+             color: white; 
+               line-height: 30px;  
+                 }nav ul li {    font-size: 20px;  } 
+     #check:checked ~ ul{    left: 0;  }}
+  @media (max-width: 359px){
+  label.logo{   
+   font-size: 16px;   
+    padding-left: 6px;  
+      }
+      }
+.hero{
+   
+}
+.flex{
+   display: flex;
+}
+.coloms{
+   flex-direction: column;
+}
+.rows{
+   flex-direction: row;
+}
+div.hero{
+   margin: 20px 0px;
+}
+div.hero secrion.main{
+   flex-basis: 60%;
+}
+div.hero section.news{
+   flex-basis: 40%;
+}
+section.main img {
+   width: 100%;
+   
+}
+.textbox{
+   font-size: 36px;
+   margin: 20px;
+   font-weight: bold;
+}
+.descriptionBox{
+   margin: 20px;
+}
+.btn{
+   border: none;
+   padding: 10px 40px;
+   background-color: hsl(5, 85%, 63%);
+   margin: 15px 0px ;
+   color: white;
+   display: block;
+}
+section.main{
+  margin-right: 10px;
+}
+section.news{
+   background-color: hsl(240, 100%, 5%);
+   padding: 15px;
+   margin: 0px 5px;
+   
+}
+.desk{
+   display: block;
+}
+.mobile{
+   display: none;
+}
+section.news div {
+   color: hsl(233, 8%, 79%);
+   margin: 10px 0px;
+}
+section.news #news {
+   margin: 20px 5px;
+   font-size: 20px;
+   color: hsl(35, 77%, 62%);
+}
+
+.white{
+   color: white;
+   margin: 5px 0px;
+   font-weight: bold;
+}
+.herobox{
+   margin: 20px 0px ;
+}
+.big{
+   font-size: 20px;
+}
+.layer div.flex div span {
+   color: hsl(233, 8%, 79%);
+}
+.layer .flex .image {
+  flex-basis: 30%;
+  
+}
+.layer .flex .text {
+
+padding-left: 10px;
+   flex-basis: 70%;
+   flex-direction: column;
+}
+.layer div.flex div.image img{
+  width: 100%;
+  
+}
+.layer div.flex {
+   margin: 10px 20px;
+   
+}
+.layer div.flex div {
+   margin-left: 10px;
+}
+.attribution{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.layer .flex {
+   flex-basis: 34%;
+}
+@media only screen and (max-width: 900px) {
+  div.hero{
+     flex-direction: column;
+  } 
+   .layer {
+      flex-direction: column;
+   }
+   .mobile{
+   display: block;
+   margin: 4px;
+}
+.desk{
+   display: none;
+}
+   .layer .flex {
+   margin: 20px 20px;
+   
+}
+.herobox{
+   flex-direction: column;
+}
+section.news div {
+   color: hsl(233, 8%, 79%);
+   margin: 30px 0px;
+}
+section.news{
+   background-color: hsl(240, 100%, 5%);
+   padding: 30px;
+   margin: 15px;
+   
+}
+.btn{
+   border: none;
+   padding: 10px 40px;
+   background-color: hsl(5, 85%, 63%);
+   margin: 30px 20px ;
+   color: white;
+   display: block;
+}
+}
+  
